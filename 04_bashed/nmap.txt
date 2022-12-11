@@ -1,0 +1,10 @@
+# Nmap 7.93 scan initiated Sun Dec 11 07:46:03 2022 as: nmap -p- --min-rate 5000 --open -vvv -Pn -oN nmap.txt 10.10.10.68
+Nmap scan report for 10.10.10.68
+Host is up, received user-set (0.062s latency).
+Scanned at 2022-12-11 07:46:16 EST for 12s
+Not shown: 65534 closed tcp ports (conn-refused)
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Dec 11 07:46:28 2022 -- 1 IP address (1 host up) scanned in 24.38 seconds
